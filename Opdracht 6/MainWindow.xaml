@@ -1,0 +1,19 @@
+﻿<Window x:Class="Opdracht_6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Opdracht_6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="53,14,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Bereken kwadraad by reference(ref)" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Width="212" Click="button_Click"/>
+        <Button x:Name="button_Copy" Content="Bereken kwadraad by reference(out)" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Width="212" Click="button_Copy_Click"/>
+        <Button x:Name="button_Copy1" Content="Bereken kwadraad by value" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top" Width="212" Click="button_Copy1_Click"/>
+        <Label x:Name="label_Copy" Content="Label" HorizontalAlignment="Left" Margin="10,117,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblUitkomst" Content="Label" HorizontalAlignment="Left" Margin="53,117,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
